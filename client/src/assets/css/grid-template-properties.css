@@ -1,0 +1,157 @@
+.player-properties {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-areas:
+            ".             .               .      .       .             .         .            .      brewery-artois              ."
+            ".             heineken        primus stella  rodenbach     duvel     brugse-zot   .      brewery-rodenbach           ."
+            "delhaize-365  sparta-pils     bavik  jupiler kriek         omer      chimay       cornet brewery-lupulus             electric-company"
+            "cara          schuttenbrau    bockor maes    kasteel-rouge westmalle westvleteren bush12 brewery-omer-vander-ghinste water-works";
+}
+
+.info-container .not-bought {
+    background-color: #d2d2d2
+}
+
+.info-container .mortgaged {
+    opacity: 0.4;
+}
+
+.delhaize-365 {
+    grid-area: delhaize-365;
+    background-color: saddlebrown
+}
+
+.cara {
+    grid-area: cara;
+    background-color: saddlebrown
+}
+
+.heineken {
+    grid-area: heineken;
+    background-color: lightblue;
+}
+
+.sparta-pils {
+    grid-area: sparta-pils;
+    background-color: lightblue;
+}
+
+.schuttenbrau {
+    grid-area: schuttenbrau;
+    background-color: lightblue;
+}
+
+.primus {
+    grid-area: primus;
+    background-color: purple
+}
+
+.bavik {
+    grid-area: bavik;
+    background-color: purple
+}
+
+.bockor {
+    grid-area: bockor;
+    background-color: purple
+}
+
+.stella {
+    grid-area: stella;
+    background-color: orange
+}
+
+.jupiler {
+    grid-area: jupiler;
+    background-color: orange
+}
+
+.maes {
+    grid-area: maes;
+    background-color: orange
+}
+
+.rodenbach {
+    grid-area: rodenbach;
+    background-color: red
+}
+
+.kriek {
+    grid-area: kriek;
+    background-color: red
+}
+
+.kasteel-rouge {
+    grid-area: kasteel-rouge;
+    background-color: red
+}
+
+.duvel {
+    grid-area: duvel;
+    background-color: yellow
+}
+
+.omer {
+    grid-area: omer;
+    background-color: yellow
+}
+
+.westmalle {
+    grid-area: westmalle;
+    background-color: yellow
+}
+
+.brugse-zot {
+    grid-area: brugse-zot;
+    background-color: green
+}
+
+.chimay {
+    grid-area: chimay;
+    background-color: green
+}
+
+.westvleteren {
+    grid-area: westvleteren;
+    background-color: green
+}
+
+.cornet {
+    grid-area: cornet;
+    background-color: darkblue
+}
+
+.bush12 {
+    grid-area: bush12;
+    background-color: darkblue
+}
+
+.brewery-artois {
+    grid-area: brewery-artois;
+    background-color: black
+}
+
+.brewery-rodenbach {
+    grid-area: brewery-rodenbach;
+    background-color: black
+}
+
+.brewery-lupulus {
+    grid-area: brewery-lupulus;
+    background-color: black
+}
+
+.brewery-omer-vander-ghinste {
+    grid-area: brewery-omer-vander-ghinste;
+    background-color: black
+}
+
+.electric-company {
+    grid-area: electric-company;
+    background-color: white
+}
+
+.water-works {
+    grid-area: water-works;
+    background-color: white
+}
